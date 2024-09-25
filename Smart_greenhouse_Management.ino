@@ -179,7 +179,6 @@ void loop(){
 
   // set the fields with the values
   ThingSpeak.setField(1, temperature);
-  ThingSpeak.setField(2, humidity);
   ThingSpeak.setField(3, soilMoisturePercentage);
   // Update ThingSpeak channel with sensors data
   ThingSpeak.writeFields(channelId, apiKey);
